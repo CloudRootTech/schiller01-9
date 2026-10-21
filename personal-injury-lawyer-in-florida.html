@@ -1,0 +1,319 @@
+
+<!DOCTYPE html>
+<html lang="en" class="text-center">
+<head>
+    <meta charset="utf-8">
+    <meta name="robots" content="index, follow">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+    <title>The Schiller Kessler Group | Personal Injury Lawyer in Florida</title>
+    <meta name="description" content="Personal Injury Lawyer in Florida">
+    <meta name="theme-color" content="#0d296b">
+    <link rel="icon" type="image/png" sizes="192x192" href="https://www.injuredinflorida.com/wp-content/uploads/2023/11/logo.webp">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+    <meta property="og:title" content="The Schiller Kessler Group | Personal Injury Lawyer in Florida">
+    <meta property="og:description" content="Personal Injury Lawyer in Florida">
+    <meta property="og:image" content="project-media/126/schiler01.jpg">
+    <meta name="twitter:card" content="summary_large_image">
+    <link rel="preload" as="image" href="project-media/126/schiler01.jpg">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css">
+    
+    
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+
+    <style>
+    /* Ensure visually-hidden works even if Bootstrap CSS fails to load */
+    .visually-hidden { position: absolute !important; width: 1px; height: 1px; padding: 0; margin: -1px; overflow: hidden; clip: rect(0,0,0,0); white-space: nowrap; border: 0; }
+
+    :root {
+        --brand:#0d296b;
+        --brand-600:#0b235b;
+        --ink:#0f172a;
+        --surface:#f7f9fc;
+    }
+
+    html { scroll-behavior: smooth; }
+
+    body {
+        margin-top: 0;
+        font-family: 'Inter', system-ui, -apple-system, Segoe UI, Roboto, Helvetica, Arial, sans-serif;
+        background-color: #0e0e0e;
+        color: var(--ink);
+    }
+
+    .hero-title, h1, h2, h3 {
+        font-family: "Playfair Display", serif;
+        letter-spacing: .2px;
+    }
+    .hero-title { font-size: clamp(2.6rem, 6vw, 4rem); }
+    h2 { font-size: clamp(1.6rem, 3.2vw, 2.2rem); }
+
+    a.inline-link { text-decoration: underline; text-underline-offset: 3px; }
+
+    #mainHeader {
+        position: fixed; top: 0; right: 0; left: 0; z-index: 2000;
+        background: rgba(13,41,107,0);
+        transition: background-color .3s ease, box-shadow .3s ease, backdrop-filter .3s ease, border-color .3s ease;
+        border-bottom: 1px solid transparent;
+    }
+    #mainHeader.scrolled {
+        background: rgba(13,41,107,.65);
+        box-shadow: 0 6px 18px rgba(0,0,0,.25);
+        backdrop-filter: saturate(140%) blur(10px);
+        border-bottom: 1px solid rgba(255,255,255,.18);
+    }
+
+    .hero-section { padding-top: 100px; position: relative; color: #fff; overflow: hidden; min-height: 400px; }
+    .hero-section::before {
+        content:""; position:absolute; inset:0;
+        background: radial-gradient(1200px 600px at 60% 20%, rgba(255,255,255,.07), transparent 60%),
+                   linear-gradient(to bottom, rgba(0,0,0,.32), rgba(0,0,0,.52));
+        pointer-events:none;
+    }
+    .hero-title { font-weight: 700; margin-bottom: .5rem; text-shadow: 0 2px 18px rgba(0,0,0,.28); }
+
+    .accent { position: relative; display: inline-block; padding-bottom: .25rem; }
+    .accent::after {
+        content: ""; position: absolute; left: 50%; transform: translateX(-50%); bottom: -12px;
+        width: 72px; height: 2px; border-radius: 999px;
+        background: linear-gradient(90deg, rgba(255,255,255,.0) 0%, #ffffff 50%, rgba(255,255,255,.0) 100%);
+        opacity: .95;
+    }
+    .accent-dark::after {
+        background: linear-gradient(90deg, rgba(13,41,107,0) 0%, var(--brand) 50%, rgba(13,41,107,0) 100%);
+    }
+
+    .section-wrap { padding: 2rem; position:relative; }
+    .section-inner { max-width: 70ch; margin: 0 auto; text-align: left; }
+    .prose p {
+        font-size: 1.05rem; line-height: 1.9; letter-spacing: .01em; margin-bottom: 1.15rem;
+        color: #0f0f10; text-align: justify;
+    }
+    .section-wrap:not(:first-child)::before {
+        content:""; position:absolute; top:-1.5rem; left:0; right:0; height:1px;
+        background: linear-gradient(90deg, transparent, rgba(13,41,107,.12), transparent);
+    }
+
+    .figure { border-radius: 1rem; overflow: hidden; box-shadow: 0 8px 22px rgba(0,0,0,.15); }
+    .figure img { display: block; width: 100%; height: auto; transition: transform .28s ease; }
+    .figure:hover img { transform: scale(1.015); }
+
+    .btn-ghost {
+        display: inline-flex; align-items: center; gap: .6rem;
+        padding: .68rem 1.15rem; border: 1px solid rgba(255,255,255,.85); color: #fff;
+        background: rgba(255,255,255,.085); border-radius: 999px;
+        backdrop-filter: blur(6px); -webkit-backdrop-filter: blur(6px);
+        box-shadow: 0 10px 28px rgba(0,0,0,.25); text-decoration: none; font-weight: 600; letter-spacing: .02em;
+        transition: transform .15s ease, background .25s ease, border-color .25s ease, box-shadow .25s ease;
+    }
+    .btn-ghost:hover { background: rgba(255,255,255,.15); border-color: #ffffff; transform: translateY(-1px); box-shadow: 0 12px 28px rgba(0,0,0,.32); }
+    .btn-ghost i { transition: transform .18s ease; }
+    .btn-ghost:hover i { transform: translateX(4px); }
+    .btn-ghost:focus-visible { outline: 2px solid #ffffff; outline-offset: 3px; }
+    .btn-ghost:active { transform: translateY(0); }
+
+    #mainHeader a { color:#fff; text-decoration:none; }
+
+    .header-icon {
+        display:inline-flex; align-items:center; justify-content:center;
+        width:40px; height:40px; border-radius:999px; margin-left:.5rem;
+        color:#fff; text-decoration:none; outline-offset:2px;
+    }
+    .header-icon i { font-size:1.5rem; line-height:1; }
+    .header-icon:focus-visible { outline:2px solid #fff; }
+    @media (hover:hover){ .header-icon:hover{ background: rgba(255,255,255,.12); } }
+
+    .reveal { opacity: 0; transform: translateY(12px); transition: opacity .55s ease, transform .55s ease; }
+    .reveal.visible { opacity: 1; transform: none; }
+
+    .footer-link { text-decoration: none; }
+    .footer-link:hover { text-decoration: underline; text-underline-offset: 3px; }
+    footer { position: relative; background: #0c0c0c; }
+    footer::before {
+        content:""; position:absolute; top:0; left:0; right:0; height:2px;
+        background: linear-gradient(90deg, transparent, rgba(255,255,255,.22), transparent); opacity:.6;
+    }
+
+    a:focus-visible, button:focus-visible { outline: 2px solid #fff; outline-offset: 2px; }
+
+    #services { scroll-margin-top: 110px; }
+
+    @media (prefers-reduced-motion: reduce) {
+        .reveal, .figure img, .btn-ghost, .accent::after { transition: none; animation: none; }
+        html { scroll-behavior: auto; }
+    }
+
+    #backToTop { position: fixed; right: 16px; bottom: 16px; z-index: 1040; display: none; }
+    </style>
+</head>
+<body class="bg-dark text-dark">
+
+    <header id="mainHeader" class="text-white py-3 d-flex align-items-center">
+        <div class="container d-flex justify-content-between align-items-center">
+            <h1 class="text-start mb-0">
+                <a href="#" class="text-white text-decoration-none" aria-label="Personal Injury Lawyer in Florida home">Personal Injury Lawyer in Florida</a>
+            </h1>
+            <div><a href="https://www.facebook.com/skghelp/" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i class="bi bi-facebook" aria-hidden="true"></i><span class="visually-hidden">Facebook</span></a><a href="https://x.com/injuredflorida" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="Twitter"><i class="bi bi-twitter" aria-hidden="true"></i><span class="visually-hidden">Twitter</span></a><a href="https://www.linkedin.com/company/skg-law-firm" class="header-icon" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i><span class="visually-hidden">LinkedIn</span></a></div>
+        </div>
+    </header>
+
+    <section class="hero-section"
+             style="background-image: url('project-media/126/schiler01.jpg'); background-size: cover; background-position: center; height: 100vh; position: relative;">
+      <div class="container hero-content"
+           style="position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%); z-index: 1; color: white;">
+        <div class="d-flex flex-column align-items-center text-center">
+          <h2 class="hero-title accent mb-3">The Schiller Kessler Group</h2>
+          <a href="#services" class="btn-ghost" role="button" aria-label="Read more about services">
+            Read More <i class="bi bi-arrow-right"></i>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <main style="background-color: #ffffff;">
+        <div class="container py-5" style="margin-top:0;">
+            <div id="services" class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">Finding The Right Legal Fit</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>When an accident leads to a legal question, <a href="https://sfo3.digitaloceanspaces.com/lawfirm/schiller01/personal-injury-lawyer-in-florida.html" class="inline-link">Personal Injury Lawyer in Florida</a> can help a person understand the available paths without making rushed decisions. The most useful guidance connects the facts of the situation with realistic objectives, whether the priority is a negotiated resolution, formal proceedings, or simply a clearer assessment of risk. A strong match is one in which Personal Injury Lawyer in Florida treats the client as an informed participant and explains unfamiliar terms in plain language.</p>
+                            <p>Financial terms deserve equal attention. Before entering an engagement, ask Personal Injury Lawyer in Florida to describe the fee arrangement, any expenses that fall outside it, and the circumstances that could affect the overall cost. It is equally valuable to learn how Personal Injury Lawyer in Florida handles conflicts, protects confidential information, and keeps the representation organized when several decisions require timely approval.</p>
+                            <p>Trust is reinforced by practical details, including accessible records, respectful treatment, and a clear process for raising concerns. Read the engagement agreement carefully, note how either side may end the relationship, and retain a copy for future reference. Selecting Personal Injury Lawyer in Florida with these considerations in mind can make the legal process more predictable while preserving the client's ability to make informed choices.</p>
+                            <figure class="figure mt-4">
+                                <img src="project-media/127/schiller02.jpg" loading="lazy" decoding="async" alt="Personal Injury Lawyer in Florida image">
+                            </figure>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color: var(--brand);">
+                            <span class="accent accent-dark">Understanding Coverage After An Accident</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>Insurance coverage is determined by policy terms and the circumstances of the event, not simply by who appears to be at fault. A review of the declarations page, exclusions, deductibles, and applicable limits with Personal Injury Lawyer in Florida can show which protections may be triggered. Depending on the situation, Personal Injury Lawyer in Florida may also examine whether medical payments, uninsured motorist benefits, property damage coverage, or another policy could address part of the loss.</p>
+                            <div class="row align-items-center mb-4">
+                                <div class="col-md-6">
+                                    <p>Notice requirements can be strict, so an insurer should generally receive prompt and accurate information about the event. Save photographs, incident reports, witness contact details, invoices, treatment records, and correspondence, while keeping notes about dates and claim representatives. If the carrier questions liability, invokes an exclusion, or proposes a payment that does not match the documented damage, Personal Injury Lawyer in Florida can interpret the response, and Personal Injury Lawyer in Florida may help determine what should be challenged or clarified.</p>
+                                </div>
+                                <div class="col-md-6">
+                                    <div class="ratio ratio-16x9 mx-auto" style="border-radius: 1rem; overflow: hidden; box-shadow: 0 6px 15px rgba(0, 0, 0, 0.2);">
+                                        <iframe src="https://www.youtube.com/embed/laJt1XMpLaQ?si=kf3NEBir3tOb15HF" loading="lazy" title="Personal Injury Lawyer in Florida video" frameborder="0" allowfullscreen></iframe>
+                                    </div>
+                                </div>
+                            </div>
+                            <p>Before accepting money or signing a release, check whether the document ends claims that have not yet been fully evaluated, including continuing treatment, repair costs, lost earnings, or related expenses. A complete file should contain the policy, claim number, supporting records, communications, and a timeline of key events. For substantial losses or disputed coverage, Personal Injury Lawyer in Florida can help place the insurer's position in context and explain which issues may require further attention.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center mb-5">
+                <div class="col-lg-10 col-xl-8">
+                    <div class="section-wrap reveal">
+                        <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                            <span class="accent accent-dark">An Ally Through Difficult Decisions</span>
+                        </h2>
+                        <div class="section-inner prose">
+                            <p>A well-organized approach can improve the handling of a legal matter from the outset. A person considering a claim can gather medical records, photographs, witness contact details, employment records, and written communications in one secure file. A conversation with Personal Injury Lawyer in Florida can help identify which steps require prompt attention, while Personal Injury Lawyer in Florida may explain how timing and available evidence could shape the next stage.</p>
+                            <p>Clear expectations are equally important. Ask how updates will be delivered, what information should be shared, and which milestones may require input. At each stage, Personal Injury Lawyer in Florida can describe the process in plain language, and Personal Injury Lawyer in Florida may help evaluate whether a proposed resolution accounts for documented losses, future needs, and practical priorities. Written notes after discussions can reduce misunderstandings and make it easier to track progress.</p>
+                            <p>Good preparation also includes protecting personal information and maintaining consistent records. Keep a dated account of symptoms, expenses, missed work, and relevant interactions, and avoid posting commentary that could be taken out of context. By keeping materials organized and questions focused, a person can support a careful review while allowing Personal Injury Lawyer in Florida to build advice around evidence rather than assumptions.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row justify-content-center">
+                <div class="col-lg-10 col-xl-8 reveal">
+                  <h2 class="mb-4 text-center text-capitalize" style="font-weight: 700; color:var(--brand);">
+                  <span class="accent accent-dark">
+                  <i class="bi bi-geo-alt" style="margin-right:.5rem;"></i>The Schiller Kessler Group</span>
+                  </h2>
+
+                    <div class="mb-4 ratio ratio-16x9">
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3584.095067595867!2d-80.2517568!3d26.0631493!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88d9066e8fbe24d9%3A0xfb7db63ae87f1b70!2sThe%20Schiller%20Kessler%20Group!5e0!3m2!1sen!2sin!4v1791289395340!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="strict-origin-when-cross-origin"></iframe>
+                    </div>
+                    <p class="fw-bold" style="color: #000000;">The Schiller Kessler Group</p>
+                    <p style="color: #000000;">CORPORATE HEADQUARTERS
+4640 South University Drive
+Davie, FL 33328</p>
+                    <p style="color: #000000;">(954) 933-5581</p>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer class="text-white bg-dark mt-5">
+        <div class="container py-4 py-lg-5">
+            <div class="row justify-content-center">
+                <div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">The Schiller Kessler Group</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="Personal-Injury-Lawyer-in-Florida.html" rel="noopener">Comapny Website</a></li>    <li><a class="link-light footer-link" href="https://www.injuredinflorida.com/" rel="noopener">https://www.injuredinflorida.com/</a></li>    <li><a class="link-light footer-link" href="" rel="noopener"></a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Useful Links</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="" rel="noopener">Finding The Right Legal Fit</a></li>    <li><a class="link-light footer-link" href="https://www.injuredinflorida.com/" rel="noopener">Understanding Coverage After An Accident</a></li>    <li><a class="link-light footer-link" href="https://maps.app.goo.gl/mJWYxrufEx9ri5vc6" rel="noopener">An Ally Through Difficult Decisions</a></li>  </ul></div><div class="col-sm-4 col-md-3 text-center text-lg-start d-flex flex-column mb-4 mb-md-0 reveal">  <h3 class="fs-6 text-white section-title-sm">Follow us on Social Media</h3>  <ul class="list-unstyled">    <li><a class="link-light footer-link" href="https://www.facebook.com/skghelp/" rel="noopener">Facebook</a></li>    <li><a class="link-light footer-link" href="https://x.com/injuredflorida" rel="noopener">Twitter</a></li>    <li><a class="link-light footer-link" href="https://www.linkedin.com/company/skg-law-firm" rel="noopener">LinkedIn</a></li>  </ul></div>
+            </div>
+            <div class="mt-4">
+                
+<section class="safe-news-wall" aria-label="Davie, Florida, United States">
+  <style>
+    .safe-news-wall { background:#f4f4f6; color:#333; padding:18px 12px 24px; border-radius:2px; }
+    .safe-news-wall h2 { margin:0 0 16px; color:#111; text-align:center; font-family:Arial, sans-serif; font-size:28px; line-height:1.2; font-weight:400; }
+    .safe-news-grid { column-count:4; column-gap:14px; }
+    .safe-news-card { display:inline-block; width:100%; break-inside:avoid; margin:0 0 14px; padding:18px; background:#fff; border:1px solid #ddd; border-radius:4px; color:#333; text-align:left; text-decoration:none; box-sizing:border-box; }
+    .safe-news-card:hover { color:#333; text-decoration:none; box-shadow:0 4px 16px rgba(66,66,66,.16); }
+    .safe-news-card h3 { margin:0 0 14px; color:#333; font-family:Arial, sans-serif; font-size:24px; line-height:1.25; font-weight:700; letter-spacing:0; }
+    .safe-news-card img { display:block; width:100%; height:auto; margin:0 0 14px; object-fit:cover; }
+    .safe-news-card p { margin:0 0 16px; color:#444; font-family:Arial, sans-serif; font-size:18px; line-height:1.55; }
+    .safe-news-meta { color:#8396a8; font-family:Arial, sans-serif; font-size:15px; line-height:1.4; }
+    @media (max-width: 1100px) { .safe-news-grid { column-count:3; } }
+    @media (max-width: 800px) { .safe-news-grid { column-count:2; } }
+    @media (max-width: 560px) { .safe-news-grid { column-count:1; } .safe-news-wall h2 { font-size:24px; } .safe-news-card h3 { font-size:21px; } }
+  </style>
+  <h2>Davie, Florida, United States</h2>
+  <div class="safe-news-grid">
+    <a class="safe-news-card" href="https://www.realtor.com/rentals/details/6131-SW-42nd-Ct_Davie_FL_33314_M55842-57379" target="_blank" rel="noopener noreferrer"><h3>6131 SW 42nd Ct, Davie, FL 33314</h3><img src="https://ap.rdcpix.com/3d19057e29a0fe775f6b21e0fcdf83b4l-m1623611885od-w640_h480.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Active rental currently listed at $2300/mo. View 17 photos of this 2 bed, 1.5 bath, 979 sqft. single family home for rent at 6131 SW 42nd Ct, Davie, FL 33314.</p><div class="safe-news-meta">realtor.com - 1d</div></a><a class="safe-news-card" href="https://www.realtor.com/rentals/details/3152-SW-147th-Ave_Davie_FL_33330_M60844-37710" target="_blank" rel="noopener noreferrer"><h3>3152 SW 147th Ave, Davie, FL 33330</h3><img src="https://ap.rdcpix.com/8ce8c902023ca2a9cd5472194efc96d2l-m3372719672od-w640_h480.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Active rental currently listed at $23995/mo. View 89 photos of this 9 bed, 5 bath, 4979 sqft. single family home for rent at 3152 SW 147th Ave, Davie, FL 33330.</p><div class="safe-news-meta">realtor.com - 1d</div></a><a class="safe-news-card" href="https://www.accuweather.com/en/us/davie/33314/weather-forecast/328172" target="_blank" rel="noopener noreferrer"><h3>Davie, FL Weather Forecast</h3><img src="https://www.accuweather.com/images/logos/aw-logo-og-meta.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Davie, FL Weather Forecast, with current conditions, wind, air quality, and what to expect for the next 3 days.</p><div class="safe-news-meta">accuweather.com - 1d</div></a><a class="safe-news-card" href="https://www.sun-sentinel.com/2026/10/19/your-2026-guide-to-voting-early-by-mail-and-on-election-day-in-florida-ensure-your-ballot-is-counted/" target="_blank" rel="noopener noreferrer"><h3>Your 2026 guide to voting early, by mail, and on Election Day in Florida. Ensure your ballot is counted.</h3><img src="https://www.sun-sentinel.com/wp-content/uploads/2026/07/tfl-l-broward-vote-by-mail-007.jpg?w=3000&amp;h=1881" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Navigate Florida’s 2026 election rules with this complete midterm voting guide. Find early voting dates, mail-in ballot deadlines, and rules to make voting easier.</p><div class="safe-news-meta">sun-sentinel.com - 1d</div></a><a class="safe-news-card" href="https://www.miamiherald.com/news/politics-government/election/voter-guide/article317620952.html" target="_blank" rel="noopener noreferrer"><h3>Early voting opens today in South Florida. Check the rules, dates, locations</h3><img src="https://www.miamiherald.com/public/latest-news/w7bwy0/picture316927914/alternates/LANDSCAPE_1200/MIA_2024_GENERAL_ELECTION_113_DS.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>What to know about casting a ballot in Miami-Dade, Broward and Monroe counties.</p><div class="safe-news-meta">miamiherald.com - 2d</div></a><a class="safe-news-card" href="https://www.maxpreps.com/fl/davie/western-wildcats/football/" target="_blank" rel="noopener noreferrer"><h3>Western High School (Davie, FL)  Football</h3><p>See the Western Wildcats&#x27;s football schedule, roster, rankings, standings and more on MaxPreps.com</p><div class="safe-news-meta">maxpreps.com - 2d</div></a><a class="safe-news-card" href="https://www.maxpreps.com/fl/fort-lauderdale/st-thomas-aquinas-raiders/football/" target="_blank" rel="noopener noreferrer"><h3>St. Thomas Aquinas High School (Fort Lauderdale, FL)  Football</h3><p>See the St. Thomas Aquinas Raiders&#x27;s football schedule, roster, rankings, standings and more on MaxPreps.com</p><div class="safe-news-meta">maxpreps.com - 4d</div></a><a class="safe-news-card" href="https://www.realtor.com/rentals/details/11155-SW-40th-St_Davie_FL_33328_M96335-91759" target="_blank" rel="noopener noreferrer"><h3>11155 SW 40th St, Davie, FL 33328</h3><img src="https://ap.rdcpix.com/4c4c3d94a5dc3a630e0d63b15bd3034dl-m2034657132od-w640_h480.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Active rental currently listed at $14900/mo. View 100 photos of this 8 bed, 4 bath, 3877 sqft. single family home for rent at 11155 SW 40th St, Davie, FL 33328.</p><div class="safe-news-meta">realtor.com - 4d</div></a><a class="safe-news-card" href="https://www.local10.com/news/politics/2026/10/16/here-is-everything-you-need-to-know-about-early-voting-starting-on-monday-in-miami-dade-broward-monroe/" target="_blank" rel="noopener noreferrer"><h3>Here is everything you need to know about early voting in Miami-Dade, Broward, Monroe</h3><img src="https://www.local10.com/resizer/v2/IFYJYQEUERC3MNELQVHG2QWQYA.jpg?auth=d62aa736938e3250cadd68325ae4c42904a6b1ee52336c05188f37921c5d8f6b&amp;width=700" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Miami-Dade, Broward, and Monroe counties start voting for the Nov. 3rd general election on Monday at 73 assigned early voting sites.</p><div class="safe-news-meta">local10.com - 4d</div></a><a class="safe-news-card" href="https://www.maxpreps.com/fl/davie/western-wildcats/volleyball/" target="_blank" rel="noopener noreferrer"><h3>Western High School (Davie, FL)  Volleyball</h3><p>See the Western Wildcats&#x27;s volleyball schedule, roster, rankings, standings and more on MaxPreps.com</p><div class="safe-news-meta">maxpreps.com - 5d</div></a><a class="safe-news-card" href="https://patch.com/florida/across-fl/popular-cookie-chain-begins-crumbl-how-fl-stores-are-affected" target="_blank" rel="noopener noreferrer"><h3>Popular Cookie Chain Begins To &#x27;Crumbl&#x27;: How FL Stores Are Affected</h3><img src="https://patch.com/img/cdn20/ap/24390419/20261014/111304/styles/patch_image/public/ap9466465254777154___14111211080.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The bakery chain has hit a rough patch that could change the number of places Florida residents can get the signature oversized cookies.</p><div class="safe-news-meta">patch.com - 6d</div></a><a class="safe-news-card" href="https://worldpopulationreview.com/us-cities/florida/davie" target="_blank" rel="noopener noreferrer"><h3>Davie, Florida  Population 2026</h3><img src="https://worldpopulationreview.com/og-image.png" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Discover population, economy, health, and more with the most comprehensive global statistics at your fingertips.</p><div class="safe-news-meta">worldpopulationreview.com - 6d</div></a><a class="safe-news-card" href="https://floridapolitics.com/archives/823352-browards-municipal-elections-whos-running-and-whats-at-stake/" target="_blank" rel="noopener noreferrer"><h3>Broward’s municipal elections — who&#x27;s running, and what&#x27;s at stake</h3><img src="https://floridapolitics.com/wp-content/uploads/2026/01/VOTE-HERE-scaled.jpeg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>A spotlight on the lesser-watched races to watch in Florida&#x27;s second-most populous county.</p><div class="safe-news-meta">floridapolitics.com - 9d</div></a><a class="safe-news-card" href="https://www.miamiherald.com/news/local/community/broward/article317552901.html" target="_blank" rel="noopener noreferrer"><h3>Who is Jonathan Newell, the Broward student accused in Cornell rape?</h3><img src="https://www.miamiherald.com/public/latest-news/lqhtea/picture317553894/alternates/LANDSCAPE_1200/TFL-L-NSU-MEDICAL2.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>The 21-year-old grew up in Davie and attended NSU University School, a preschool to grade 12 private college preparatory school.</p><div class="safe-news-meta">miamiherald.com - 11d</div></a><a class="safe-news-card" href="https://www.sun-sentinel.com/2026/10/09/guide-to-broward-countys-2026-election-races-candidates-and-questions/" target="_blank" rel="noopener noreferrer"><h3>Guide to Broward County’s 2026 election races, candidates and questions</h3><img src="https://www.sun-sentinel.com/wp-content/uploads/2026/10/TFL-L-2026-broward-voter-guide.jpg?w=1200&amp;h=628" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Broward County 2026 election guide: Find key voting dates, mail-in deadlines, early voting sites, ballot questions, and candidate lists.</p><div class="safe-news-meta">sun-sentinel.com - 11d</div></a><a class="safe-news-card" href="https://www.realtor.com/rentals/details/8351-SW-39th-Ct_Davie_FL_33328_M60191-39556" target="_blank" rel="noopener noreferrer"><h3>8351 SW 39th Ct, Davie, FL 33328</h3><img src="https://ap.rdcpix.com/732ea6c64e12b4f0842de65bc541e404l-m1699354535od-w640_h480.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Active rental currently listed at $4500/mo. View 53 photos of this 4 bed, 2.5 bath, 2022 sqft. single family home for rent at 8351 SW 39th Ct, Davie, FL 33328.</p><div class="safe-news-meta">realtor.com - 22d</div></a><a class="safe-news-card" href="https://www.realtor.com/rentals/details/901-SW-121st-Ave_Davie_FL_33325_M90224-70592" target="_blank" rel="noopener noreferrer"><h3>901 SW 121st Ave, Davie, FL 33325</h3><img src="https://ap.rdcpix.com/032b14c516c0725a3e2fc7850b7a5461l-m713086120od-w640_h480.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Active rental currently listed at $7900/mo. View 14 photos of this 4 bed, 3 bath, 2471 sqft. single family home for rent at 901 SW 121st Ave, Davie, FL 33325.</p><div class="safe-news-meta">realtor.com - 29d</div></a><a class="safe-news-card" href="https://www.legacy.com/us/obituaries/name/esther-fiermonte-obituary?id=62441499" target="_blank" rel="noopener noreferrer"><h3>Esther Ferrer Fiermonte Obituary (2026)  - Falowski Kalis Mcintee Funeral and Cremation Services</h3><img src="https://cache.legacy.net/legacy/images/cobrands/legacyadn/photos/1c0082d7-cad7-4941-af66-bcdba95241d5.jpgx?w=600&amp;h=440" alt="" loading="lazy" referrerpolicy="no-referrer"><p>View Esther Ferrer Fiermonte&#x27;s obituary, send flowers and sign the guestbook.</p><div class="safe-news-meta">legacy.com - 35d</div></a><a class="safe-news-card" href="https://www.dignitymemorial.com/obituaries/davie-fl/john-epperson-13021289" target="_blank" rel="noopener noreferrer"><h3>John Epperson Obituary</h3><img src="https://d27790xjhw2fza.cloudfront.net/as/assets-mem-com/cmi/9/8/2/1/13021289/20260902_123237521_0_orig.jpg/-/john-epperson-davie-fl-obituary.jpg?a.balancewhite=true&amp;a.sharpen=3" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Celebrate the life of John Epperson, leave a kind word or memory and get funeral service information care of Fred Hunter&#x27;s Funeral Home.</p><div class="safe-news-meta">dignitymemorial.com - 42d</div></a><a class="safe-news-card" href="https://www.legacy.com/us/obituaries/name/joseph-ford-obituary?id=62161645" target="_blank" rel="noopener noreferrer"><h3>Joseph Ford Obituary (2026)  - T. M. Ralph Plantation Funeral Home</h3><img src="https://cache.legacy.net/legacy/images/cobrands/legacypro/photos/856e2036-a676-4856-8ab4-f3e9de3247d4.jpgx?w=600&amp;h=500" alt="" loading="lazy" referrerpolicy="no-referrer"><p>View Joseph Ford&#x27;s obituary, send flowers and sign the guestbook.</p><div class="safe-news-meta">legacy.com - 73d</div></a><a class="safe-news-card" href="https://www.foxweather.com/earth-space/burmese-python-florida-everglades-snake-conservation-2026" target="_blank" rel="noopener noreferrer"><h3>Burmese python population booms near popular Florida tourist area, prompting higher conservation presence</h3><img src="https://images.foxweather.com/static.foxweather.com/www.foxweather.com/content/uploads/2026/07/1024/512/gettyimages-159366535-scaled.jpg?ve=1&amp;tl=1" alt="" loading="lazy" referrerpolicy="no-referrer"><p>Experts across the Sunshine State are monitoring an increasing presence of the deadly Burmese Python in the Everglades.</p><div class="safe-news-meta">foxweather.com - 87d</div></a><a class="safe-news-card" href="https://www.dvidshub.net/news/571623/us-army-corps-engineers-teammates-sweep-ecisma-honors-everglades-invasive-species-work" target="_blank" rel="noopener noreferrer"><h3>U.S. Army Corps of Engineers Teammates Sweep ECISMA Honors for Everglades Invasive Species Work</h3><img src="https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2608/9851798/1000w_q95.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>DAVIE, Fla. – The U.S. Army Corps of Engineers (USACE) Jacksonville District received top recognition at this year’s Everglades Cooperative Invasive Species Management Area (ECISMA) Summit, where two district employees received the only awards presented during the annual gathering of Everglades invasive species professionals.</p><div class="safe-news-meta">dvidshub.net - 90d</div></a><a class="safe-news-card" href="https://www.dvidshub.net/image/9851755/many-partners-one-mission-usace-jacksonville-district-and-florida-agencies-tackling-everglades-invasives" target="_blank" rel="noopener noreferrer"><h3>Many Partners, One Mission: USACE Jacksonville District and Florida Agencies Tackling Everglades Invasives</h3><img src="https://d1ldvf68ux039x.cloudfront.net/thumbs/photos/2608/9851755/2000w_q95.jpg" alt="" loading="lazy" referrerpolicy="no-referrer"><p>University of Florida Institute of Food and Agricultural Sciences (UF/IFAS) and ECISMA partners, Eric Suarez and Aaron Chimelis, host a breakout session during the summit to discuss using online platforms for strategic invasive species outreach among partner agencies. (USACE photo by Peggy Bebb)</p><div class="safe-news-meta">dvidshub.net - 90d</div></a>
+  </div>
+</section>
+
+            </div>
+        </div>
+    </footer>
+
+    <a id="backToTop" href="#top" class="btn btn-light rounded-pill shadow-sm px-3 py-2" aria-label="Back to top">↑ Top</a>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    <script>
+    document.addEventListener("DOMContentLoaded", function() {
+        var header = document.getElementById("mainHeader");
+        var backToTop = document.getElementById("backToTop");
+        var reveals = document.querySelectorAll('.reveal');
+
+        window.addEventListener("scroll", function() {
+            var scrolled = window.scrollY > 50;
+            header.classList.toggle("scrolled", scrolled);
+            backToTop.style.display = window.scrollY > 600 ? "inline-flex" : "none";
+        });
+
+        if ('IntersectionObserver' in window) {
+            const io = new IntersectionObserver((entries) => {
+                entries.forEach(e => {
+                    if (e.isIntersecting) {
+                        e.target.classList.add('visible');
+                        io.unobserve(e.target);
+                    }
+                });
+            }, { threshold: 0.12 });
+            reveals.forEach(el => io.observe(el));
+        } else {
+            reveals.forEach(el => el.classList.add('visible'));
+        }
+    });
+    </script>
+
+</body>
+</html>
